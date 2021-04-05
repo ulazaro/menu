@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h2{
+    border: 2px solid orange;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+
+ul{      
+    list-style-type: none;
+    margin-top: 50px;
+    margin: 10px;
+
+}
+
+ul a{
+    border: 1px solid red;
+    display: block;
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    background: url(menu.png);
+    color: black;
+    text-indent: 40px;
+    line-height: 40px;
+}
+
+a:hover{
+    background-position: right ;
+    color: white;
+}
+
+
+#menu .menu a{
+
+    background-position:  right ;
+    color: white;
+}
+
+#donate .donate a{
+
+    background-position:  right ;
+    color: white;
+}
+
+#developers .developers a{
+
+    background-position:  right ;
+    color: white;    
+}
+
+#contact .contact a{
+
+    background-position:  right ;
+    color: white;    
+}
+
+#about .about a{
+
+    background-position:  right bottom;
+    color: white;    
+}
